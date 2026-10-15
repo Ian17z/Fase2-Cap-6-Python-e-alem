@@ -11,11 +11,7 @@
 ## Nome do grupo
 
 ## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 5</a>
+- <a href="https://www.linkedin.com/in/ian-perez-3b2898341/?skipRedirect=true&contentTrackingId=uAUFJyNmR5y20HPvzqlKHw%3D%3D&viewName=premium-nav-upsell-text&upsellOrderOrigin=Tracking%3Av1%3Apremium_nav_upsell_text%3ANav%3AIn-Product">Ian Lima Perez</a>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
@@ -26,44 +22,36 @@
 
 ## 📜 Descrição
 
-*Descreva seu projeto com base no texto do PBL (até 600 palavras)*
+# Otimização de colheita de Cana-de-Açúcar
 
+## A dificuldade do agronegócio
+O Brasil é líder mundial na produção de cana-de-açúcar. Contudo, as perdas durante a colheita, especialmente a mecanizada, chegam a até 15% da produção (contra 5% da manual). Em São Paulo, isso representa uma perda anual de cerca de R$ 20 milhões. A falta de monitoramento em tempo real do volume esperado versus o volume real colhido impede que o produtor ajuste as máquinas ou melhore o planejamento a tempo, resultando em prejuízos irreparáveis safra após safra.
 
-## 📁 Estrutura de pastas
+## Solução:
+Foi desenvolvido um sistema de linha de comando desenvolvido em Python que atua como um diário de bordo digital para o produtor. Ele permite:
+1. O registro de lotes/talhões colhidos (Manuais ou Mecanizados).
+2. O cálculo automático da porcentagem de perda.
+3. A classificação do status da colheita (Normal, Alerta ou Crítico) para auxiliar na tomada de decisão imediata (ex: parar a colhedora para manutenção).
+4. O armazenamento dos dados localmente (JSON e TXT para relatórios rápidos).
+5. A integração corporativa via Banco de Dados (Oracle).
 
-Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
-
-- <b>.github</b>: Nesta pasta ficarão os arquivos de configuração específicos do GitHub que ajudam a gerenciar e automatizar processos no repositório.
-
-- <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
-
-- <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
-
-- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
-
-- <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
-
-- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
-
-- <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
+## Tecnologias utilizadas
+- **Linguagem:** Python 3.x
+- **Estruturas de Dados:** Listas, Tuplas, Dicionários (formando uma tabela de memória).
+- **Subalgoritmos:** Funções modulares com passagem de parâmetros.
+- **Persistência de Dados:** Arquivos `.json`, relatórios em `.txt` e Banco de Dados Oracle (`oracledb`).
+- **Validação:** Tratamento rigoroso de exceções (`try-except`) garantindo integridade dos dados.
 
 ## 🔧 Como executar o código
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório. Considere a explicação organizada em fase.*
-
+Subalgoritmos: função e procedimento com passagem de parâmetros;
+Estruturas de dados: lista, tupla, dicionário, tabela de memória;
+Manipulação de arquivos: texto e JSON.
+Conexão com banco de dados: Oracle.
 
 ## 🗃 Histórico de lançamentos
-
-* 0.5.0 - XX/XX/2024
-    * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
-    * 
-* 0.2.0 - XX/XX/2024
-    * 
-* 0.1.0 - XX/XX/2024
-    *
+    
+* 0.1.0 - 14/10/2026 
 
 ## 📋 Licença
 
